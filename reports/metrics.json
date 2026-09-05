@@ -1,0 +1,67 @@
+{
+  "source": "synthetic-demo-fallback",
+  "n_test": 225,
+  "prevalence": 0.035555555555555556,
+  "pr_auc": 0.03716690042075736,
+  "roc_auc": 0.5207373271889402,
+  "brier_score": 0.03437859248400906,
+  "ece": 0.006107227105883333,
+  "operating_points": {
+    "high_recall": {
+      "threshold": 0.1,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "fpr": 0.0
+    },
+    "balanced": {
+      "threshold": 0.5,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "fpr": 0.0
+    },
+    "high_precision": {
+      "threshold": 0.9,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "fpr": 0.0
+    }
+  },
+  "cost_optimum": {
+    "threshold": 0.04,
+    "net_saved": 0.0,
+    "saved_per_10000": 0.0
+  },
+  "sensitivity": {
+    "0.5": {
+      "threshold": 0.04,
+      "saved_per_10000": 0.0
+    },
+    "1": {
+      "threshold": 0.04,
+      "saved_per_10000": 0.0
+    },
+    "2": {
+      "threshold": 0.04,
+      "saved_per_10000": 0.0
+    }
+  },
+  "limitations": [
+    "Precision is conditional on labels observed after the original approval filter (reject inference).",
+    "Concept drift can invalidate a historical time window.",
+    "Cost constants are assumptions, not measurements."
+  ],
+  "ablation_recall_at_1pct_fpr": {
+    "intrinsic": {
+      "recall_at_1pct_fpr": 0.0
+    },
+    "velocity": {
+      "recall_at_1pct_fpr": 0.0
+    },
+    "graph": {
+      "recall_at_1pct_fpr": 0.0
+    }
+  }
+}

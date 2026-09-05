@@ -1,0 +1,3 @@
+Prahari portable fallback estimator
+The clean-clone path uses sklearn logistic regression when LightGBM is unavailable.
+Kaggle runs may replace this artifact with the optional LightGBM model.

@@ -1,0 +1,86 @@
+{
+  "TransactionAmt": {
+    "psi": 0.0404916817054421,
+    "alert": false
+  },
+  "card1": {
+    "psi": 0.8430353725547658,
+    "alert": true
+  },
+  "card2": {
+    "psi": 0.0,
+    "alert": false
+  },
+  "card3": {
+    "psi": 0.0,
+    "alert": false
+  },
+  "card4": {
+    "psi": 0.0,
+    "alert": false
+  },
+  "card5": {
+    "psi": 0.0,
+    "alert": false
+  },
+  "card6": {
+    "psi": 0.0,
+    "alert": false
+  },
+  "addr1": {
+    "psi": 0.02811908987883415,
+    "alert": false
+  },
+  "addr2": {
+    "psi": 0.0,
+    "alert": false
+  },
+  "dist1": {
+    "psi": 0.0,
+    "alert": false
+  },
+  "dist2": {
+    "psi": 0.0,
+    "alert": false
+  },
+  "amount": {
+    "psi": 0.0404916817054421,
+    "alert": false
+  },
+  "log_amount": {
+    "psi": 0.0404916817054421,
+    "alert": false
+  },
+  "hour": {
+    "psi": 0.001637330550282231,
+    "alert": false
+  },
+  "day_of_week": {
+    "psi": 0.10139111954846938,
+    "alert": false
+  },
+  "email_match": {
+    "psi": 0.0,
+    "alert": false
+  },
+  "missing_TransactionAmt": {
+    "psi": 0.0,
+    "alert": false
+  },
+  "missing_card1": {
+    "psi": 0.0,
+    "alert": false
+  },
+  "missing_addr1": {
+    "psi": 0.0,
+    "alert": false
+  },
+  "missing_P_emaildomain": {
+    "psi": 0.0,
+    "alert": false
+  },
+  "missing_DeviceInfo": {
+    "psi": 0.0,
+    "alert": false
+  }
+}

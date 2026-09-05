@@ -1,0 +1,11 @@
+{
+  "intrinsic": {
+    "recall_at_1pct_fpr": 0.0
+  },
+  "velocity": {
+    "recall_at_1pct_fpr": 0.0
+  },
+  "graph": {
+    "recall_at_1pct_fpr": 0.0
+  }
+}
