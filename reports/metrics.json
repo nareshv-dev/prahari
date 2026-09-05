@@ -1,51 +1,51 @@
 {
-  "source": "synthetic-demo-fallback",
-  "n_test": 225,
-  "prevalence": 0.035555555555555556,
-  "pr_auc": 0.03716690042075736,
-  "roc_auc": 0.5207373271889402,
-  "brier_score": 0.03437859248400906,
-  "ece": 0.006107227105883333,
+  "source": "IEEE-CIS",
+  "n_test": 88581,
+  "prevalence": 0.03480430340592226,
+  "pr_auc": 0.3693084673419856,
+  "roc_auc": 0.8522023914579507,
+  "brier_score": 0.026221144776212922,
+  "ece": 0.00499068187175751,
   "operating_points": {
     "high_recall": {
       "threshold": 0.1,
-      "precision": 0.0,
-      "recall": 0.0,
-      "f1": 0.0,
-      "fpr": 0.0
+      "precision": 0.23770868433144432,
+      "recall": 0.5034057735971457,
+      "f1": 0.32292967124427796,
+      "fpr": 0.05821188799738006
     },
     "balanced": {
       "threshold": 0.5,
-      "precision": 0.0,
-      "recall": 0.0,
-      "f1": 0.0,
-      "fpr": 0.0
+      "precision": 0.7502726281352236,
+      "recall": 0.22315926046059034,
+      "f1": 0.344,
+      "fpr": 0.0026784252263210837
     },
     "high_precision": {
       "threshold": 0.9,
-      "precision": 0.0,
-      "recall": 0.0,
-      "f1": 0.0,
-      "fpr": 0.0
+      "precision": 0.816,
+      "recall": 0.03308465780084333,
+      "f1": 0.06359102244389027,
+      "fpr": 0.00026901214063486866
     }
   },
   "cost_optimum": {
-    "threshold": 0.04,
-    "net_saved": 0.0,
-    "saved_per_10000": 0.0
+    "threshold": 0.22,
+    "net_saved": 7247108.012200005,
+    "saved_per_10000": 818133.4611485539
   },
   "sensitivity": {
     "0.5": {
-      "threshold": 0.04,
-      "saved_per_10000": 0.0
+      "threshold": 0.22,
+      "saved_per_10000": 853233.159594044
     },
     "1": {
-      "threshold": 0.04,
-      "saved_per_10000": 0.0
+      "threshold": 0.22,
+      "saved_per_10000": 818133.4611485539
     },
     "2": {
-      "threshold": 0.04,
-      "saved_per_10000": 0.0
+      "threshold": 0.22,
+      "saved_per_10000": 747934.0642575722
     }
   },
   "limitations": [
@@ -55,13 +55,13 @@
   ],
   "ablation_recall_at_1pct_fpr": {
     "intrinsic": {
-      "recall_at_1pct_fpr": 0.0
+      "recall_at_1pct_fpr": 0.3597145637366202
     },
     "velocity": {
-      "recall_at_1pct_fpr": 0.0
+      "recall_at_1pct_fpr": 0.34933506325008107
     },
     "graph": {
-      "recall_at_1pct_fpr": 0.0
+      "recall_at_1pct_fpr": 0.34641582873824195
     }
   }
 }

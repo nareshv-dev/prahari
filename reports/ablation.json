@@ -1,11 +1,11 @@
 {
   "intrinsic": {
-    "recall_at_1pct_fpr": 0.0
+    "recall_at_1pct_fpr": 0.3597145637366202
   },
   "velocity": {
-    "recall_at_1pct_fpr": 0.0
+    "recall_at_1pct_fpr": 0.34933506325008107
   },
   "graph": {
-    "recall_at_1pct_fpr": 0.0
+    "recall_at_1pct_fpr": 0.34641582873824195
   }
 }

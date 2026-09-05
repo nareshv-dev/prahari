@@ -125,6 +125,19 @@ def metrics():
     p = Path("reports/metrics.json")
     return json.loads(p.read_text()) if p.exists() else {"status": "not-trained", "message": "Run python -m src.train"}
 
+@app.get("/v1/metrics/cost-curve")
+def cost_curve():
+    """Serves the full threshold sweep so the console can compare any two operating
+    points (e.g. a fixed 0.50 cutoff vs. the Governor's EV-optimal threshold) using
+    only numbers evaluate.py already computed - no retraining, no fabricated values."""
+    p = Path("reports/cost_curve.csv")
+    if not p.exists():
+        return {"status": "not-trained", "message": "Run python -m src.train", "points": []}
+    import csv
+    with p.open() as fh:
+        points = [{"threshold": float(row["threshold"]), "net_saved": float(row["net_saved"])} for row in csv.DictReader(fh)]
+    return {"points": points}
+
 @app.post("/v1/advocate/packet")
 def advocate(req: AdvocateRequest):
     return build_packet(_store, req.transaction_id)

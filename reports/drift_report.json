@@ -1,66 +1,86 @@
 {
   "TransactionAmt": {
-    "psi": 0.0404916817054421,
+    "psi": 0.004822321624508811,
     "alert": false
   },
   "card1": {
-    "psi": 0.8430353725547658,
-    "alert": true
+    "psi": 0.004012252559420233,
+    "alert": false
   },
   "card2": {
-    "psi": 0.0,
+    "psi": 0.010052878099026613,
     "alert": false
   },
   "card3": {
-    "psi": 0.0,
-    "alert": false
-  },
-  "card4": {
-    "psi": 0.0,
+    "psi": 0.0026501915641454427,
     "alert": false
   },
   "card5": {
-    "psi": 0.0,
-    "alert": false
-  },
-  "card6": {
-    "psi": 0.0,
+    "psi": 0.011898622432599084,
     "alert": false
   },
   "addr1": {
-    "psi": 0.02811908987883415,
+    "psi": 0.0034577205504662716,
     "alert": false
   },
   "addr2": {
-    "psi": 0.0,
+    "psi": 0.005281657907890703,
     "alert": false
   },
   "dist1": {
-    "psi": 0.0,
+    "psi": 0.004410746968503275,
     "alert": false
   },
   "dist2": {
-    "psi": 0.0,
+    "psi": 0.05846873650697754,
     "alert": false
   },
   "amount": {
-    "psi": 0.0404916817054421,
+    "psi": 0.004822321624508811,
     "alert": false
   },
   "log_amount": {
-    "psi": 0.0404916817054421,
+    "psi": 0.004822321624508811,
     "alert": false
   },
   "hour": {
-    "psi": 0.001637330550282231,
+    "psi": 0.020939425512068194,
     "alert": false
   },
   "day_of_week": {
-    "psi": 0.10139111954846938,
+    "psi": 0.022054963009768076,
     "alert": false
   },
   "email_match": {
     "psi": 0.0,
+    "alert": false
+  },
+  "V1": {
+    "psi": 0.0,
+    "alert": false
+  },
+  "V2": {
+    "psi": 4.757854304971196e-07,
+    "alert": false
+  },
+  "V3": {
+    "psi": 4.780306275996897e-07,
+    "alert": false
+  },
+  "C1": {
+    "psi": 0.012720489706962065,
+    "alert": false
+  },
+  "C2": {
+    "psi": 0.016361571983861144,
+    "alert": false
+  },
+  "D1": {
+    "psi": 0.022509609729730533,
+    "alert": false
+  },
+  "D2": {
+    "psi": 0.020278214484651058,
     "alert": false
   },
   "missing_TransactionAmt": {
@@ -71,7 +91,39 @@
     "psi": 0.0,
     "alert": false
   },
+  "missing_card2": {
+    "psi": 0.0,
+    "alert": false
+  },
+  "missing_card3": {
+    "psi": 0.0,
+    "alert": false
+  },
+  "missing_card4": {
+    "psi": 0.0,
+    "alert": false
+  },
+  "missing_card5": {
+    "psi": 0.0,
+    "alert": false
+  },
+  "missing_card6": {
+    "psi": 0.0,
+    "alert": false
+  },
   "missing_addr1": {
+    "psi": 0.0,
+    "alert": false
+  },
+  "missing_addr2": {
+    "psi": 0.0,
+    "alert": false
+  },
+  "missing_dist1": {
+    "psi": 0.0,
+    "alert": false
+  },
+  "missing_dist2": {
     "psi": 0.0,
     "alert": false
   },
@@ -79,7 +131,7 @@
     "psi": 0.0,
     "alert": false
   },
-  "missing_DeviceInfo": {
+  "missing_R_emaildomain": {
     "psi": 0.0,
     "alert": false
   }
